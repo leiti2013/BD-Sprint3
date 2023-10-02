@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="683D8F00-2307-333D-00E6-1C5921C2A147" name="T_PS_CLIENTE">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 21:58:51 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="A216F4AA-921B-9705-EE5E-4BCFED87D313">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 21:59:10 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cliente" id="86BAAB25-6C9E-66AB-06DA-54B52577806A">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 21:59:57 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="DBE43C3A-E42E-7759-A0A8-39B0BB553D4A">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:00:25 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_idade" id="ACF26405-3C3C-71BD-CEAB-83D8A8EF346D">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:06:00 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="2A16D5BD-1202-B52C-52D7-9F889535B6DD">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:10:56 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_endereco" id="F55831A6-5FEC-F2F9-0628-D56149060930">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-09 03:14:41 UTC</createdTime>
+<generatorID>5ECC9C87-DB22-BAFA-0079-075E6230138E</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<referedAttribute>43EC23BA-E13A-FA15-6E3E-3627F96C33C9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="3356DDD9-FCFC-54A4-05C3-854ECFB065CE">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 00:35:59 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ACF04246-6C3D-9BA6-2D5D-B53C6BC8A344" name="T_PS_CLIENTE PK">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 21:59:21 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A216F4AA-921B-9705-EE5E-4BCFED87D313</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

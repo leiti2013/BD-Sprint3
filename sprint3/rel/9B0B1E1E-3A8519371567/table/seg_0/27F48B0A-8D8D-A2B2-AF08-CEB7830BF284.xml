@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27F48B0A-8D8D-A2B2-AF08-CEB7830BF284" name="T_PS_ENDERECO">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>1731BDE0-845C-F1F7-EA35-36EBAAE0597A</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_endereco" id="CBC57D61-35B4-15BD-B393-CFDDF3D01F7E">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>43EC23BA-E13A-FA15-6E3E-3627F96C33C9</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado" id="4FAF0ACA-9FC5-AD65-4F8A-842AFC8D21F1">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>716357D4-AB85-0874-49E9-61065381DE87</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_municipio" id="7A0BB1E3-915B-5F8A-0768-8E9E11DFC5B6">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>00E32E0F-8686-284A-1A57-E8E55A58C302</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_logradouro" id="4DABBB47-E84C-539C-83F4-496D94FF01CC">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>D4B2C3D0-A6C9-8E5E-A764-939409419BE6</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_numero_residencial" id="237C1BEB-75F8-D306-00DC-434EE20ECAFF">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>12B91821-815F-5299-41F3-B0CD92D7D2CE</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A5456D1-596D-E9A3-040D-3B359AA78F2B" name="T_PS_ENDERECO_PK">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>5350E90D-7BD9-02AE-A480-BD06CE2B75ED</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBC57D61-35B4-15BD-B393-CFDDF3D01F7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

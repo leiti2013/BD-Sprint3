@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1731BDE0-845C-F1F7-EA35-36EBAAE0597A" name="T_PS_ENDERECO">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:11:45 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_endereco" id="43EC23BA-E13A-FA15-6E3E-3627F96C33C9">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:12:23 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="716357D4-AB85-0874-49E9-61065381DE87">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:12:31 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_municipio" id="00E32E0F-8686-284A-1A57-E8E55A58C302">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:15:14 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_logradouro" id="D4B2C3D0-A6C9-8E5E-A764-939409419BE6">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:15:25 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_numero_residencial" id="12B91821-815F-5299-41F3-B0CD92D7D2CE">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:17:05 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5350E90D-7BD9-02AE-A480-BD06CE2B75ED" name="T_PS_ENDERECO PK">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:12:30 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43EC23BA-E13A-FA15-6E3E-3627F96C33C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

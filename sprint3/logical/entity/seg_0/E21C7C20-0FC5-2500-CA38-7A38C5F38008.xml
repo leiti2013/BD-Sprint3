@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E21C7C20-0FC5-2500-CA38-7A38C5F38008" name="T_PS_BIKE">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:21:36 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_bike" id="4034DCFF-D921-6CBD-EFDA-F2457213F7CF">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:21:47 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_marca" id="A5DA5E51-FC12-5EF1-A9AB-E1AE1146CF5E">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:21:54 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_modelo" id="3A84F302-BBDA-6B39-D20F-ACBD5CA3CD22">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:22:46 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_cor" id="7D79D810-E724-4982-B11B-93D3CAD630B1">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:22:54 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_valor" id="CEF633C3-DC99-DADC-453B-503796F50546">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:23:02 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_numero_nota_fiscal" id="AB247341-CD59-2586-4CEE-0B34F7DBBD35">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:23:19 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="3C779E09-77BA-35B0-32C3-448AA468259D">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:27:32 UTC</createdTime>
+<generatorID>F66B0B36-8434-414B-0A48-32A0C4B5B34A</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<referedAttribute>A216F4AA-921B-9705-EE5E-4BCFED87D313</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C13B333-1B08-D1B8-92F5-7C752CF7ACAC" name="T_PS_BIKE PK">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:21:53 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4034DCFF-D921-6CBD-EFDA-F2457213F7CF</attributeRef>
+<attributeRef>3C779E09-77BA-35B0-32C3-448AA468259D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

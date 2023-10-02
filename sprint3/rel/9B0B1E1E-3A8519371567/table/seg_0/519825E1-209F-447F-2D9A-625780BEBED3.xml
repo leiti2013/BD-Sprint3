@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="519825E1-209F-447F-2D9A-625780BEBED3" name="T_PS_BIKE">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>E21C7C20-0FC5-2500-CA38-7A38C5F38008</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_bike" id="E39D4CF3-55E5-745D-2A13-071825B57A72">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>4034DCFF-D921-6CBD-EFDA-F2457213F7CF</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_marca" id="D80324C0-A662-AA97-A192-5C8B872FD6DC">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>A5DA5E51-FC12-5EF1-A9AB-E1AE1146CF5E</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_modelo" id="ACE29EF9-2098-D266-FC2C-A16C63EE5FB2">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>3A84F302-BBDA-6B39-D20F-ACBD5CA3CD22</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_cor" id="B06686B8-E2E3-335B-0C0E-355F0C853904">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>7D79D810-E724-4982-B11B-93D3CAD630B1</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_valor" id="3859C082-382C-B4CE-518D-6B6C80F98CC9">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>CEF633C3-DC99-DADC-453B-503796F50546</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_numero_nota_fiscal" id="C60CEFBB-32FC-7256-56A5-3FB2706B2349">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>AB247341-CD59-2586-4CEE-0B34F7DBBD35</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_PS_CLIENTE_id_cliente" id="F3773A47-EC89-72CF-38BA-AAA470708CE5">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>3C779E09-77BA-35B0-32C3-448AA468259D</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55E6B9AB-3319-50B1-1508-BEBE33149E30" referredColumn="61541342-B3C2-9A0F-2DE7-15728CD9DE4F"/>
+</associations>
+</Column>
+<Column name="T_PS_SEGURO_id_seguro" id="6A27572C-952C-D4D8-5A16-3080C0502A75">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 21:27:31 UTC</createdTime>
+<generatorID>3DAD1F27-C46E-2D6D-C77B-77B7AE7FEAFF</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="182AC518-E682-7ECF-5CDA-0B3D0633F5F4" referredColumn="E0837EF7-3746-3198-0A76-43ADC34E02A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="549830A2-2C78-DC88-4A26-7DBDB7E25826" name="T_PS_BIKE_PK">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>4C13B333-1B08-D1B8-92F5-7C752CF7ACAC</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E39D4CF3-55E5-745D-2A13-071825B57A72"/>
+<colUsage columnID="F3773A47-EC89-72CF-38BA-AAA470708CE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3158E07F-9F8C-C904-0E7D-40E2A94E9009" name="T_PS_BIKE__IDX">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 21:27:31 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>43B6AE0F-6C2D-3222-6D2F-063A296C1E90</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6A27572C-952C-D4D8-5A16-3080C0502A75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F2A7DCD7-A261-84E9-CDC9-9E2ECEAF5E6A" name="T_PS_BIKE_T_PS_CLIENTE_FK">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>F66B0B36-8434-414B-0A48-32A0C4B5B34A</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3773A47-EC89-72CF-38BA-AAA470708CE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B11AC234-0B15-9C63-84C1-1F82568B0A25" name="T_PS_BIKE_T_PS_SEGURO_FK">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 21:27:31 UTC</createdTime>
+<generatorID>43B6AE0F-6C2D-3222-6D2F-063A296C1E90</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A27572C-952C-D4D8-5A16-3080C0502A75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

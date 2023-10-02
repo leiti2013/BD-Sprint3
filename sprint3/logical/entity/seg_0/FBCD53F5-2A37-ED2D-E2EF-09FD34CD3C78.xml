@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FBCD53F5-2A37-ED2D-E2EF-09FD34CD3C78" name="T_PS_SEGURO">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:18:03 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_seguro" id="EE9DCE00-E21B-9F29-3282-0EC9495C59DC">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:18:31 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_status" id="40ED108D-32CB-8FAA-50EB-238A0CF75730">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:18:52 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_data_inicio" id="7805C774-6C07-D91B-203F-8A1101DE9F52">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:19:53 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71D8E0A0-8B71-2D38-0106-2E61C447B54F" name="T_PS_SEGURO PK">
+<createdBy>leo</createdBy>
+<createdTime>2023-08-23 22:18:48 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="9B0B1E1E-EF38-A62A-F03F-3A8519371567" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EE9DCE00-E21B-9F29-3282-0EC9495C59DC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

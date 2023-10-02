@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F696820-7E3B-FCD3-A54B-CB39FA4320C2" name="T_PS_SEGURO">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>FBCD53F5-2A37-ED2D-E2EF-09FD34CD3C78</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_seguro" id="E0837EF7-3746-3198-0A76-43ADC34E02A9">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>EE9DCE00-E21B-9F29-3282-0EC9495C59DC</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_status" id="4DB9A494-0092-21ED-D3FD-52D92109E7D3">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>40ED108D-32CB-8FAA-50EB-238A0CF75730</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_data_inicio" id="141DBFFA-A835-34D8-5F83-3160E4488DFB">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>7805C774-6C07-D91B-203F-8A1101DE9F52</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_PS_BIKE_id_bike" id="D328BBEF-C348-141F-0958-41B0DAD86BD6">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>FB22078A-33A1-7FE5-9E16-D6794201141E</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98BD67E3-5417-1254-EAF8-6849F1CE1A3E" referredColumn="E39D4CF3-55E5-745D-2A13-071825B57A72"/>
+</associations>
+</Column>
+<Column name="T_PS_BIKE_T_PS_CLIENTE_id_cliente" id="7B61E416-DE89-D59D-1306-5669D8C1F75B">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:08:05 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98BD67E3-5417-1254-EAF8-6849F1CE1A3E" referredColumn="F3773A47-EC89-72CF-38BA-AAA470708CE5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8A7F7B7F-2537-2395-81BE-933C4E44C2BE" name="T_PS_SEGURO_PK">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>71D8E0A0-8B71-2D38-0106-2E61C447B54F</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E0837EF7-3746-3198-0A76-43ADC34E02A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69352E24-AC45-E282-6E99-FD4CD5E4E025" name="T_PS_SEGURO__IDX">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<ownerDesignName>sprint3</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C1A30B26-F87F-0E02-A92D-325D29DFE1B2</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D328BBEF-C348-141F-0958-41B0DAD86BD6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="33639932-3A34-4744-CC77-9C953A05A1F0" name="T_PS_SEGURO_T_PS_BIKE_FK">
+<createdBy>leo</createdBy>
+<createdTime>2023-09-11 03:05:26 UTC</createdTime>
+<generatorID>C1A30B26-F87F-0E02-A92D-325D29DFE1B2</generatorID>
+<ownerDesignName>sprint3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D328BBEF-C348-141F-0958-41B0DAD86BD6"/>
+<colUsage columnID="7B61E416-DE89-D59D-1306-5669D8C1F75B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
